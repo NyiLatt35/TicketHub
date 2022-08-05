@@ -13,7 +13,7 @@
 
             <div>
                 <ul class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="../index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/" class="text-white">Home</a></li>
                     <li class="breadcrumb-item active">Confirm Ticket</li>
                 </ul>
             </div>

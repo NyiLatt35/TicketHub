@@ -13,7 +13,7 @@
 
             <div>
                 <ul class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="../index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/" class="text-white">Home</a></li>
                     <li class="breadcrumb-item active">Operators</li>
                 </ul>
             </div>
@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="col-12 col-md-12 col-lg-6 py-2">
-                    <div class="infos mb-3 py-3 rounded-2">
+                    <form class="infos mb-3 py-3 rounded-2" action="/operator/confirm">
                         <h3 class="text-center pb-2">Information</h3>
 
                         <div class="d-flex align-items-center justify-content-between px-3">
@@ -64,9 +64,9 @@
                             <h6 class="">Price</h6>
                             <h6 class="">20000 MMK</h6>
                         </div>
-                    </div>
+                    </form>
 
-                    <div class="p-infos py-3 rounded-2">
+                    <form class="p-infos py-3 rounded-2" action="/operator/confirm">
                         <h3 class="text-center pb-2">Pessanger Information</h3>
 
                         <div class="d-flex align-items-center justify-content-between px-3">
@@ -125,12 +125,10 @@
                         </div>
 
                         <div class="mx-4 text-end">
-                            <a href="/operator/confirm">
                                 <input type="submit" name="" class="btn btn-primary me-0" id="" value="Book Now"/>
-                            </a>
                         </div>
 
-                    </div>
+                    </form>
                 </div>
 
             </div>

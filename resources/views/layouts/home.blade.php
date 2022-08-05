@@ -116,7 +116,7 @@
                                 </select>
                             </div>
 
-                            <a href="/operator">
+                            <a href="/home/operator">
                                 <button type="submit" id="submit" class="btns">Search Book</button>
                             </a>
                         </div>

@@ -15,13 +15,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',function (){
     return view('layouts/home');
 });
-Route::get('/operator',function (){
+Route::get('/home/operator',function (){
     return view('layouts/selectseat');
 });
 Route::get('/operator/confirm',function (){
     return view('layouts/confirmticket');
 });
-//Route::redirect('/','layouts/home');
-Route::prefix('layouts')->group(function (){
-    Route::get('/home',[App\Http\Controllers\DesignPageController::class,'main']);
-});
+
